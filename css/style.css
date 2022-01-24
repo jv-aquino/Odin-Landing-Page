@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Ubuntu&display=swap');
+
+* {
+  list-style: none;
+  font-family: 'Outfit', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav, footer {
+  background-color: #081c15;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  color: #d8f3dc;
+}
+
+.nav img {
+  height: 62px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav a {
+  color: #d8f3dc;
+}
+
+footer {
+  padding: 28px;
+  justify-content: center;
+}
