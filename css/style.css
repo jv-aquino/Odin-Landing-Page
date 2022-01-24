@@ -10,14 +10,25 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  background-color: #d8f3dc;
 }
 
-.nav, footer {
+.nav, footer, .top  {
   background-color: #081c15;
   display: flex;
   justify-content: space-around;
   padding: 16px;
   color: #d8f3dc;
+}
+
+.top {
+  justify-content: initial;
+  flex-direction: column;
+}
+
+.nav {
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .nav img {
@@ -28,10 +39,45 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+  font-size: 18px;
 }
 
 .nav a {
   color: #d8f3dc;
+}
+
+.hero img {
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero div {
+  width: 560px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 19px;
+}
+
+.hero {
+  align-items: center;
+}
+
+.hero button {
+  padding: 8px;
+  font-size: 25px;
+  background-color: #95d5b2;
+  border-radius: 7px;
+  border: none;
+}
+
+.hero a {
+  color: #2d6a4f;
 }
 
 footer {
