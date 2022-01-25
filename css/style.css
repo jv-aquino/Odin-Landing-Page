@@ -81,7 +81,7 @@ body {
 }
 
 #products {
-  margin: 40px auto;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -89,16 +89,29 @@ body {
 }
 #products h1 {
   margin-top: 0;
+  margin-bottom: 43px;
 }
 
 .imgs {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  justify-content: center;
+  gap: 16px;
+  align-items: flex-start;
 }
 
 .imgs div {
+  width: 270px;
   flex: 1;
+  text-align: center;
+}
+
+.imgs img {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 210px;
+  border: 4px solid #2d6a4f;
+  border-radius: 5px;
 }
 
 footer {
