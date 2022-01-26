@@ -6,9 +6,14 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
+  color: #1c0808;
   margin: 0;
   background-color: #d8f3dc;
 }
@@ -81,15 +86,16 @@ body {
 }
 
 #products {
-  margin: 50px auto;
+  padding: 48px 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-#products h1 {
+#products h1, #reviews h1 {
   margin-top: 0;
-  margin-bottom: 43px;
+  margin-bottom: 48px;
+  font-size: 35px;
 }
 
 .imgs {
@@ -112,6 +118,41 @@ body {
   height: 210px;
   border: 4px solid #2d6a4f;
   border-radius: 5px;
+}
+
+#reviews {
+  background-color: #92b9a4;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#reviews div {
+  width: 800px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+#reviews h1 {
+  margin-bottom: 44px;
+}
+
+.rev {  
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.author {
+  font-size: 22px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 6px;
+  margin-bottom: 44px;
 }
 
 footer {
