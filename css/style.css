@@ -82,7 +82,7 @@ body {
 }
 
 .hero a {
-  color: #2d6a4f;
+  color: #081c15;
 }
 
 #products {
@@ -126,7 +126,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
 }
 
 #reviews div {
@@ -153,6 +152,45 @@ body {
   align-self: flex-end;
   margin-top: 6px;
   margin-bottom: 44px;
+}
+
+#buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+}
+
+.buydiv {
+  margin: 0;
+  display: flex;
+  padding: 30px 50px;
+  align-items: center;
+  background-color: #2d6a4f;
+  border-radius: 6px;
+  border: none;
+  color: #d8f3dc;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.buydiv h1, .buydiv p {
+  margin: 0;
+}
+
+.buydiv p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.buydiv button {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 7px 30px;
+  background-color: #95d5b2;
+  border-radius: 7px;
+  border: none;
+  color: #081c15;
 }
 
 footer {
